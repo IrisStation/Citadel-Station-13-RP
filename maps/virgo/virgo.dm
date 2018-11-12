@@ -5,7 +5,7 @@
 	#include "virgo-3.dmm"
 	#include "virgo-4.dmm"
 	#include "virgo-5.dmm"
-	#include "virgo-6.dmm"
+	//#include "virgo-6.dmm"
 	#include "virgo-7.dmm"
 
 	#include "virgo_defines.dm"
