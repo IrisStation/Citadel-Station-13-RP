@@ -334,7 +334,7 @@
 
 /datum/species/teshari
 	mob_size = MOB_MEDIUM
-	spawn_flags = SPECIES_CAN_JOIN
+	spawn_flags = SPECIES_IS_RESTRICTED
 	icobase = 'icons/mob/human_races/r_seromi_vr.dmi'
 	deform = 'icons/mob/human_races/r_seromi_vr.dmi'
 	color_mult = 1
