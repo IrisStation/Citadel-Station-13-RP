@@ -3,6 +3,8 @@
 /area/general
 	name = "\improper Station Segment"
 	icon_state = "hallC"
+	requires_power = 0
+	dynamic_lighting = 1
 
 /area/general/mid
 	name = "\improper Plateau"
@@ -18,6 +20,12 @@
 	name = "\improper Cliffs"
 
 //Civilian Areas
+/area/civilian
+	name= "\improper Civilian Area"
+	icon_state = "cryo"
+	requires_power = 0
+	dynamic_lighting = 1
+
 /area/civilian/cryo
 	name = "Cryogenic Storage"
 	icon_state = "cryo"
@@ -78,6 +86,13 @@
 	icon_state = "vacant_shop"
 
 //Service Sector
+
+/area/service
+	name= "\improper Service Area"
+	icon_state = "bar"
+	requires_power = 0
+	dynamic_lighting = 1
+
 /area/service/bar
 	name = "\improper Bar"
 	icon_state = "bar"
@@ -102,10 +117,21 @@
 /area/command
 	name = "\improper Bridge"
 	icon_state = "bridge"
+	requires_power = 0
+	dynamic_lighting = 1
 
 /area/command/captain
 	name = "\improper Captain's Quarters"
 	icon_state = "captain"
+
+/area/command/lawyer
+	name = "\improper Internal Affairs Office"
+
+/area/command/hall
+	name = "\improper Command Building Hallway"
+
+/area/command/lobby
+	name = "\improper Command Building Lobby"
 
 /area/command/hop
 	name = "\improper Head of Personnel's Quarters"
@@ -131,6 +157,8 @@
 /area/sec
 	name = "Security"
 	icon_state = "security"
+	requires_power = 0
+	dynamic_lighting = 1
 
 /area/sec/sub
 	name = "\improper Security Sublevel"
@@ -139,6 +167,34 @@
 /area/sec/sub/hos
 	name = "\improper Head of Security's Office"
 	icon_state = "sec_hos"
+
+/area/sec/sub/warden
+	name = "\improper Warden's Office"
+	icon_state = "sec_hos"
+
+/area/sec/sub/interrogation
+	name = "\improper Interrogation Room"
+	icon_state = "detective"
+
+/area/sec/sub/lobby
+	name = "\improper Security Lobby"
+	icon_state = "security"
+
+/area/sec/sub/cell1
+	name = "\improper Brig Cell 1"
+	icon_state = "brig"
+
+/area/sec/sub/cell2
+	name = "\improper Brig Cell 2"
+	icon_state = "brig"
+
+/area/sec/sub/cell3
+	name = "\improper Brig Cell 3"
+	icon_state = "brig"
+
+/area/sec/sub/cell4
+	name = "\improper Brig Cell 4"
+	icon_state = "brig"
 
 /area/sec/sub/armory
 	name = "\improper Security Armory"
@@ -156,6 +212,8 @@
 /area/med
 	name = "\improper Medbay"
 	icon_state = "medbay"
+	requires_power = 0
+	dynamic_lighting = 1
 
 /area/med/psych
 	name = "\improper Mental Health Ward"
@@ -217,6 +275,8 @@ area/med/emt
 /area/research
 	name = "Research"
 	icon_state = "research"
+	requires_power = 0
+	dynamic_lighting = 1
 
 /area/research/rd
 	name = "\improper Research Director's Office"
@@ -266,6 +326,8 @@ area/med/emt
 /area/eng
 	name = "Engineering"
 	icon_state = "engineering"
+	requires_power = 0
+	dynamic_lighting = 1
 
 /area/eng/equipment
 	name = "\improper Engineering Equipment Bay"
@@ -324,13 +386,21 @@ area/med/emt
 /area/cargo
 	name = "\improper Cargo Bay"
 	icon_state = "quart"
+	requires_power = 0
+	dynamic_lighting = 1
 
 /area/cargo/qm
 	name = "\improper Quartermaster's Office"
 	icon_state = "quartoffice"
 
+/area/cargo/trashpit
+	name = "\improper Trash Pit"
+
 /area/cargo/sub
 	name = "\improper Cargo Sublevel"
+
+/area/cargo/sub/lobby
+	name = "\improper Cargo Lobby"
 
 /area/cargo/sub/warehouse
 	name = "\improper Cargo Warehouse"
